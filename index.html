@@ -6,32 +6,48 @@
   <title>Papa's Party Playhouse</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #fff8f0;
+      margin: 0;
+      padding: 0;
+      font-family: 'Comic Sans MS', sans-serif;
+      background-color: #fff8f0;
       color: #333;
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    h1 {
-      font-size: 2.5rem;
-      color: #cc4444;
       text-align: center;
     }
-    .logo {
-      display: block;
-      margin: 0 auto 2rem;
-      max-width: 100%;
-      width: 300px;
+    .container {
+      padding: 2rem;
     }
-    section {
-      margin-bottom: 2rem;
+    .logo {
+      max-width: 90%;
+      height: auto;
+    }
+    nav {
+      margin: 2rem 0;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #cc4444;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    audio {
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
-  <h1>🎩 Papa’s Party Playhouse</h1>
-  <!-- Logo Image -->
-  <img src="papaslogo.PNG" alt="Papa's Party Playhouse Logo" class="logo"/>
-
-  <p><strong>Welcome to Papa’s Party Playhouse!</strong> Papa provides heartwarming children’s content where “Papa” — a fun, loving grandfather — shares laughs, learning, playtime, and songs with kids everywh
+  <div class="container">
+    <img src="papas-logo.png" alt="Papa's Party Playhouse Logo" class="logo" />
+    <nav>
+      <a href="https://youtube.com/@papaspartyplayhouse" target="_blank">YouTube</a>
+      <a href="https://facebook.com/papaspartyplayhouse" target="_blank">Facebook</a>
+      <a href="https://instagram.com/papaspartyplayhouse" target="_blank">Instagram</a>
+      <a href="https://tiktok.com/@papaspartyplayhouse" target="_blank">TikTok</a>
+    </nav>
+    <audio controls>
+      <source src="theme-song.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</body>
+</html>
